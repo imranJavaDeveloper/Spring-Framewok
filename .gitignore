@@ -16,3 +16,8 @@ XmlBasedProject/bin/com/bean/Main.class
 XmlBasedProject/.settings/org.eclipse.jdt.core.prefs
 XmlBasedProject/src/com/bean/Main.java
 XmlBased2Project/src/config.xml
+JavaConfig2Project/bin/com/bean/Mobile.class
+JavaConfigProject/.project
+JavaConfigProject/bin/com/bean/JavaConfig.class
+MavenProject/.settings/org.eclipse.jdt.apt.core.prefs
+*.MF
