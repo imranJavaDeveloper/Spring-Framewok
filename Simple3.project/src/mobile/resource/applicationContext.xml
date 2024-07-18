@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <!-- creating bean provide class name -->
+        
+        <bean class="mobile.bean.Mobile" id="mobile1">
+        
+        
+       <!--  set the value in the bean class -->
+       
+       <property name="name" value="redmi note 7s"></property>
+       
+       <property name="price" value="10000"></property>
+       
+       <property name="device_model" value="model3515"></property>
+       
+       <property name="batery_mh" value="5000 MH"></property>
+        
+         </bean>
+        </beans>
