@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <!--  create object of student class -->
+    
+    
+    <bean class="simple.bean.Strudent" id="stdId">
+    
+       <!--  set property value -->
+       
+       <property name="name"  value="md imran alam"> </property>
+       
+       <property name="roll" value="101"> </property>
+       
+       <property name="email" value="mdimran@gmail.com"> </property>
+    </bean>
+
+
+
+
+<bean class="simple.bean.Strudent" id="stdId2">
+    
+       <!--  set property value -->
+       
+       <property name="name"  value="md furkan alam"> </property>
+       
+       <property name="roll" value="102"> </property>
+       
+       <property name="email" value="mdfurkan@gmail.com"> </property>
+    </bean>
+
+</beans>
+
